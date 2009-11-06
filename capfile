@@ -5,7 +5,7 @@ set(:svn_user) do
   Capistrano::CLI.ui.ask "Enter a username to access the SVN repository: "
 end
 set :application, "vmi"
-set :repository,  "svn+altssh://#{svn_user}@transit-dev.admin.umass.edu/usr/local/svn/vehicle"
+set :repository,  "svn+altssh://#{svn_user}@transit-dev.admin.umass.edu/usr/local/svn/vmi"
 
 set :oit_location, "/vehicle"
 set :deploy_to, "/cwis/http/htdocs#{oit_location}"
