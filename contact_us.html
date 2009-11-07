@@ -52,8 +52,8 @@ function konami(e) {
       
       <div id="topmenu"> 
         <a href="index.html">HOME</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">CONTACT US</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="contact_us.html">CONTACT US</a>
       </div>
       
       <table id="main_table">
@@ -64,10 +64,12 @@ function konami(e) {
                   Departments
                 </div>
                 <div id="left_services">
-                  <a href="http://www.umass.edu/transit">Transit Services, PVTA Bus Operations</a><br>
-                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br>
-                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br>
-                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br>
+                  <a href="http://www.umass.edu/transit">Transit Services, PVTA Bus Operations</a><br><br>
+                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br><br>
+                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br><br>
+					<a href="http://parking.umass.edu/index.php/home/">Parking Services</a><br><br>
+					<a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a><br><br>	
+                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br><br>
                   <a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a><br>
                 </div>
                 
@@ -76,16 +78,16 @@ function konami(e) {
                 </div>
                 
                 <div id="left_helpful_links"> 
-                  <a href="#">
+                  <a href="2009_letter.html">
                     2009 Fleet Initiative Letter
                   <a><br><br>
-                  <a href="http://www.umass.edu/procurement/surplus.html">
+                  <a href="acquiring.html">
                     Acquiring or Disposing of State Vehicles
                   </a><br><br>
-                  <a href="#">
+                  <a href="fueling.html">
                     Fueling State Vehicles
                   </a><br><br>
-                  <a href="#">
+                  <a href="repairs.html">
                     Vehicles Repairs and Roadside Assistance
                   </a><br><br>
 
@@ -100,51 +102,61 @@ function konami(e) {
               <div id="page_title">CONTACT US</div>
               <div id="page_text_field"> 
                 <div class="pageSubTitle">Email:</div>
-
-				                    <blockquote> UMass Transit's email address is <a 
-				                href="mailto:transit@admin.umass.edu">transit@admin.umass.edu</a>. If 
-				                you would like to send email to a specific staff member, refer to 
-				                <a href="staff.html">Transit Staff</a> page.</blockquote>
-
+								<blockquote>
+									<table id="emails">
+										
+										<tr>
+				                    <td>UMass Transit:</td>
+							<td class="emails"><a href="mailto:transit@admin.umass.edu">transit@admin.umass.edu</a></td>
+										</tr>
+										<tr>		
+											<td>Field Trip and Meet & Greet Services:</td>
+							<td class="emails"><a href="mailto:fieldtrip@admin.umass.edu">fieldtrip@admin.umass.edu</a></td>
+											</tr>
+											<tr>
+										<td>Parking Services:</td>		
+							<td class="emails"><a href="mailto:parkingservices@admin.umass.edu">parkingservices@admin.umass.edu</a></td>
+												</tr>
+											<tr>	
+										<td>RTIC:</td>		
+							<td class="emails"><a href="rtic@admin.umass.edu">rtic@admin.umass.edu</a></td>
+											</tr>	
+											<tr>
+										<td>UMTS Staff E-Mails</td>		
+				            <td class="emails"><a href="http://www.umass.edu/transit/staff.html">UMTS Staff E-mails</a></td> 
+									</tr>
+									</table>
+									<script type="text/javascript">alternateClasses("emails")</script>
+									</blockquote><br><br>
+									
 				                    <div class="pageSubTitle">Phone:</div>
 				                    <blockquote>
 				                      <table id="contacts">
 				                        <tr>
 
-				                          <td>Lost and Found for Routes B43 and M40: </td>
-				                          <td class="number">(413) 586-3548</td>
+				                          <td>Transit Services, PVTA Bus Operations: </td>
+				                          <td class="number">(413)545-0056</td>
 
 				                        </tr>
 				                        <tr>
-				                          <td>Lost and Found for other Amherst-area routes: </td>
-				                          <td class="number">(413) 545-0056 </td>
+				                          <td>Field Trip and Meet & Greet Services: </td>
+				                          <td class="number">(413)545-2498 </td>
 
 				                        </tr>
 				                        <tr>
-				                          <td>Bus Schedule Information: </td>
+				                          <td>Parking Services: </td>
 
-				                          <td class="number">(413) 545-0056 </td>
+				                          <td class="number">(413)545-0065 </td>
 				                        </tr>
 				                        <tr>
-				                          <td>Bus Schedule Hotline (recording of holiday and snow emergency info): </td>
+				                          <td>SpecTrans Services: </td>
 
-				                          <td class="number">(413) 545-1633 </td>
+				                          <td class="number">(413)545-2086 </td>
 				                        </tr>
 				                        <tr>
 
-				                          <td>UMass Transit Fax: </td>
-				                          <td class="number">(413) 545-1930 </td>
-				                        </tr>
-
-				                        <tr>
-				                          <td>UMass Transit Field Trip Services: </td>
-				                          <td class="number">(413) 545-2498 </td>
-				                        </tr>
-
-				                        <tr>
-				                          <td>UMass Transit Spectrans: </td>
-				                          <td class="number">(413) 545-2086 </td>
-
+				                          <td>Vehicle Rentals: </td>
+				                          <td class="number">(413)577-7368 </td>
 				                        </tr>
 
 				                      </table>
@@ -169,20 +181,14 @@ function konami(e) {
 				        </tbody>
 
 				      </table>
-				
-              </div>
-            </td>   
-          </tr>
-        </tbody>
-      </table>
 
-      <table id="footer_table">
+	 <table id="footer_table">
         <tbody>
           <tr>
             <td>
               <div id="footer">
                 <p><br>
-                  This page is maintained by <a href="index.html">Umass Transit Services</a>.<br>
+                  This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br>
                   &copy; 2008 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226; <a href="http://umass.edu/umhome/policies.html">Site Policies</a><br>
                   <br>
                   <img src="images/seal.jpg" id="seal" alt="Seal"></p>
