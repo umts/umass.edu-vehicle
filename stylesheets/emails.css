@@ -1,0 +1,19 @@
+#emails {
+  width: 450px;
+  font-size: 12px;
+  border-collapse: collapse;
+  border: none;
+
+}
+#container #main_table #right #page_text_field #emails  tr{
+  border: none;
+}
+#container #main_table #right #page_text_field #emails  td{
+  border: none;
+}
+#container #main_table #left #emails .number{
+  width: 10px;
+}
+#container #main_table #right #contacts .number{
+  align: right;
+}
