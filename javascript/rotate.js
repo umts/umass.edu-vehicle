@@ -11,11 +11,11 @@ var pause=10000 //SET PAUSE BETWEEN SLIDE (3000=3 seconds)
 
 var fadeimages=new Array()
 //SET IMAGE PATHS. Extend or contract array as needed
-fadeimages[3]="images/new_enterprise.jpg"
-fadeimages[4]="images/van.jpg"
-fadeimages[2]="images/enterpriseUMass.jpg"
+fadeimages[2]="images/new_enterprise.jpg"
+fadeimages[3]="images/blue_and_white_vans.jpg"
+//fadeimages[2]="images/enterpriseUMass.jpg"
 fadeimages[0]="images/bus_people.jpg"
-fadeimages[5]="images/field_trip_services1.jpg"
+fadeimages[4]="images/coach_bus.jpg"
 fadeimages[1]="images/sprinter.jpg"
 //fadeimages[4]="images/ft_buses_snow.jpg"
 //fadeimages[5]="images/bus_on_campus.jpg"
