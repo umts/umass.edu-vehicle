@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html>
+  <head>
+    <title>Transportation Services</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <link href="stylesheets/base.css" rel="stylesheet" type="text/css">
+<script src="javascript/prototype.js"></script>
+<script type="text/javascript">
+var typedSoFar = new String;
+function konami(e) {
+  //66 is keycode for B, 65 is keycode for A
+  var konami = Event.KEY_UP + "" + Event.KEY_UP + "" + Event.KEY_DOWN + "" + Event.KEY_DOWN;
+  konami += Event.KEY_LEFT + "" + Event.KEY_RIGHT + "" + Event.KEY_LEFT + "" + Event.KEY_RIGHT;
+  konami += '6665';
+  typedSoFar += e.keyCode;
+  if(typedSoFar.include(konami)){
+    window.location = "http://www.yougotrickrolled.com/";
+  }
+}
+
+</script>
+  </head>
+  
+  <body onkeydown="konami(event)">
+    <div id="container" >
+      <!-- Begin UMass Amherst top banner --> 
+      <div id="topbanner"> 
+        <a  href="http://umass.edu">
+          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst">
+        </a>
+          <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs" onsubmit="if (this.q.value=='Search UMass Amherst') return false;">
+            <div>
+              <label for="q">
+              <input name="q" id="q" size="22" value="Search UMass Amherst" onfocus="if (this.value=='Search UMass Amherst') this.value=''" onblur="if (this.value=='') this.value='Search UMass Amherst'" type="text">
+              </label>
+              <input input="submit" name="sa" value="Go" type="submit">
+              <input name="site" value="default_collection" type="hidden">
+              <input name="client" value="default_frontend" type="hidden">
+              <input name="proxystylesheet" value="default_frontend" type="hidden">
+              <input name="output" value="xml_no_dtd" type="hidden">
+            </div>
+          </form>
+      </div>
+      
+      <div id="banner">
+        <!--Banner image rendered through css-->
+        <a id="banner_link" href="index.html"></a>
+      </div>
+      
+      <div id="topmenu"> 
+        <a href="index.html">HOME</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="contact_us.html">CONTACT US</a>
+      </div>
+      
+      <table id="main_table">
+        <tbody>
+          <tr>
+             <td id="left">
+                <div class="left_menu_title">
+                  Departments
+                </div>
+                <div id="left_services">
+                  <a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a><br><br>
+                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br><br>
+                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br><br>
+					<a href="http://parking.umass.edu/index.php/home/">Parking Services</a><br><br>
+					<a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a><br><br>	
+                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br><br>
+                  <a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a><br>
+                </div>
+                
+                <div class="left_menu_title">
+                  State Vehicle Info Links<br>
+                </div>
+                
+                <div id="left_helpful_links"> 
+                  <a href="2009_letter.html">
+                    2009 Fleet Initiative Letter
+                  <a><br><br>
+                  <a href="acquiring.html">
+                    Acquiring or Disposing of State Vehicles
+                  </a><br><br>
+                  <a href="fueling.html">
+                    Fueling State Vehicles
+                  </a><br><br>
+                  <a href="repairs.html">
+                    Vehicles Repairs and Roadside Assistance
+                  </a><br><br>
+
+                 
+                  </a><br><br>
+                </div>
+             </td>
+
+
+            <!-- InstanceBeginEditable name="Content" -->
+            <td id="right">
+              <div id="page_title">Advertising - Details</div>
+              <div id="page_text_field"> 
+				<div id="vans_menu">
+                    <a href="ads.html">main</a> |
+                    <a href="ads_details.html">details</a> |
+                    <a href="ads_contact.html">contact</a> |
+                    <a href="ads_faq.html">faq</a> |
+                    <a href="ads_photos.html">photos</a> 
+                  </div>
+                <h2>How to Advertise</h2>
+                <ul>
+                  <li>
+                    Contact the <a href="mailto:vehicleads@admin.umass.edu">Marketing Coordinator</a> to discuss contract terms, pricing, availability, and so forth. 
+                  </li>
+                  <li>
+                    Sign a contract that includes costs, number of spaces, duration of display, etc.
+                  </li>
+                  <li>
+                    Design an advertisement, making sure that it is consistent with university 
+                    <a href="http://www.umass.edu/identity">guidelines</a> and approved by the Marketing Coordinator.
+                  </li>
+                  <li>
+                    Print the sign (either with your own contractor, or through ours) and have it delivered to the PVTA Bus Facility.
+                    We will install it
+                  </li>
+                </ul>
+                <h2>Pricing</h2>
+                <ul>
+                  <li>
+                    Cost of each sign printed varies, but is usually around $175.00.  Your printer can give you an exact cost.
+                  </li>
+                  <li>
+                    Each spaces costs $150.00 per month.
+                  </li>
+                  <li>
+                    Semester discount:  for each 4-month semester purchased, we reduce the cost by 10%
+                  </li>
+                  <li>
+                    On-campus discount:  On-campus groups (departments, RSO&#39;s, and so forth) are eligible for a 50% discount.
+                  </li>
+                  <li>
+                    Total price will include any printing costs, space costs, and any miscellaneous costs.
+                  </li>
+                  <li>
+                    Payment will be via university recharge unless otherwise arranged. 
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </td>   
+          </tr>
+        </tbody>
+      </table>
+
+      <table id="footer_table">
+        <tbody>
+          <tr>
+            <td>
+              <div id="footer">
+                <p><br>
+                  This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br>
+                  &copy; 2008 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226; <a href="http://umass.edu/umhome/policies.html">Site Policies</a><br>
+                  <br>
+                  <img src="images/seal.jpg" id="seal" alt="Seal"></p>
+              </div>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+  </body>
+</html>
