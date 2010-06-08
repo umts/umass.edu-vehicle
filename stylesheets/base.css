@@ -7,10 +7,6 @@ body
   padding: 0;
 }
 
-#fuel_card_table{
-  text-align: center;
-}
-
 #container{
 	background-color: #FFFFFF;
 	background-repeat: no-repeat;
@@ -423,4 +419,10 @@ base.css (line 89)
 	font-size: 9px;
 	color: #999999;
 	text-decoration: underline;
+}
+#container #fuel_card_table{
+  text-align: center;
+}
+#container #fuel_card_table td{
+  border-style: hidden;
 }
