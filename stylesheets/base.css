@@ -7,6 +7,10 @@ body
   padding: 0;
 }
 
+#fuel_card_table{
+  text-align: center;
+}
+
 #container{
 	background-color: #FFFFFF;
 	background-repeat: no-repeat;
