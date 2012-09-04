@@ -1,150 +1,127 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
   <head>
     <title>Transportation Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link href="stylesheets/base.css" rel="stylesheet" type="text/css">
-
   </head>
-  
+
   <body>
-    <div id="container" >
-      <!-- Begin UMass Amherst top banner --> 
-      <div id="topbanner"> 
+    <div id="container">
+      <!-- Begin UMass Amherst top banner -->
+      <div id="topbanner">
         <a  href="http://umass.edu">
-          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst">
+          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst" />
         </a>
-          <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs" onsubmit="if (this.q.value=='Search UMass Amherst') return false;">
-            <div>
-              <label for="q">
-              <input name="q" id="q" size="22" value="Search UMass Amherst" onfocus="if (this.value=='Search UMass Amherst') this.value=''" onblur="if (this.value=='') this.value='Search UMass Amherst'" type="text">
-              </label>
-              <input input="submit" name="sa" value="Go" type="submit">
-              <input name="site" value="default_collection" type="hidden">
-              <input name="client" value="default_frontend" type="hidden">
-              <input name="proxystylesheet" value="default_frontend" type="hidden">
-              <input name="output" value="xml_no_dtd" type="hidden">
-            </div>
-          </form>
+        <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs">
+          <label for="q">
+            <input name="q" id="q" size="22" placeholder="Search UMass Amherst" type="text" />
+          </label>
+          <input input="submit" name="sa" value="Go" type="submit" />
+          <input name="site" value="default_collection" type="hidden" />
+          <input name="client" value="default_frontend" type="hidden" />
+          <input name="proxystylesheet" value="default_frontend" type="hidden" />
+          <input name="output" value="xml_no_dtd" type="hidden" />
+        </form>
       </div>
-      
+
       <div id="banner">
         <!--Banner image rendered through css-->
         <a id="banner_link" href="index.html"></a>
       </div>
-      
-      <div id="topmenu"> 
-		<a href="index.html">HOME</a>
-		<a href="ptab.html">PTAB</a>
-		<a href="about_us.html">ABOUT US</a>
-		<a href="contact_us.html">CONTACT US</a>
+
+      <div id="topmenu">
+        <a href="index.html">HOME</a>
+        <a href="ptab.html">PTAB</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="contact_us.html">CONTACT US</a>
       </div>
-      
+
       <table id="main_table">
         <tbody>
           <tr>
-             <td id="left">
-                <div class="left_menu_title">
-                  Departments
-                </div>
-                <div id="left_services">
-                  <a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a><br><br>
-                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br><br>
-                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br><br>
-					<a href="http://parking.umass.edu/index.php/home/">Parking Services</a><br><br>
-					<a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a><br><br>	
-                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br><br>
-                  <a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a><br>
-                </div>
-                
-                <div class="left_menu_title">
-                  State Vehicle Info Links<br>
-                </div>
-                
-                <div id="left_helpful_links"> 
-                  <a href="pdf/2009_letter.pdf">
-                    2009 Fleet Initiative Letter
-                  <a><br><br>
-                  <a href="acquiring.html">
-                    Acquiring or Disposing of State Vehicles
-                  </a><br><br>
-                  <a href="fueling.html">
-                    Fueling State Vehicles
-                  </a><br><br>
-                  <a href="repairs.html">
-                    Vehicles Repairs and Roadside Assistance </a> <br><br>         <a href="accident.html">Accident Procedure</a> <br><br>
-                  </a><br><br>
+            <td id="left">
+              <div class="left_menu_title">Departments</div>
+              <ul id="left_services" class="left_nav">
+                <li><a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a></li>
+                <li><a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a></li>
+                <li><a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a></li>
+                <li><a href="http://parking.umass.edu/index.php/home/">Parking Services</a></li>
+                <li><a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a></li>
+                <li><a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a></li>
+                <li><a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a></li>
+              </ul>
 
-                 
-                  </a><br><br>
-                </div>
-             </td>
-
+              <div class="left_menu_title">State Vehicle Info Links</div>
+              <ul class="left_nav" id="left_helpful_links">
+                <li><a href="pdf/2009_letter.pdf">2009 Fleet Initiative Letter</a></li>
+                <li><a href="acquiring.html">Acquiring or Disposing of State Vehicles</a></li>
+                <li><a href="fueling.html">Fueling State Vehicles</a></li>
+                <li><a href="repairs.html">Vehicles Repairs and Roadside Assistance </a></li>
+                <li><a href="accident.html">Accident Procedure</a></li>
+              </ul>
+            </td>
 
             <!-- InstanceBeginEditable name="Content" -->
             <td id="right">
-              <div id="page_title">FUELING STATE VEHICLES</div>
-              <div id="page_text_field"> 
+              <div id="page_title">Fueling State Vehicles</div>
+              <div id="page_text_field">
+                <p>To use the pumps for fueling a Campus Vehicle, you will need:</p>
+                <ol>
+                  <li>A Fuel ID: Employees identified by departments as approved fuelers
+                  will be able to use the last six digits of their Campus ID to activate
+                  the fuel pumps.</li>
+                  <li>The vehicle information card for the vehicle you will be fueling.</li>
+                  <li>Current odometer reading.</li>
+                </ol>
 
-				
-				To use the pumps for fueling a Campus Vehicle, you will need:<br><br>
-		
-					<ol>
-					<li>A Fuel ID: Employees identified by departments as approved fuelers
-					will be able to use the last six digits of their Campus ID to activate
-					the fuel pumps.</li><br>
-					<li>The vehicle information card for the vehicle you will be fueling.</li><br>
-					<li>Current odometer reading.</li>
-					</ol>
-			
+                <table class="fuel_card_table">
+                  <tr>
+                    <th>Old Card</th>
+                    <th>New Card</th>
+                  </tr>
+                  <tr>
+                    <td><img src="images/old_card.jpg"></td>
+                    <td><img src="images/new_card.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>Expires: 6/17/10</td>
+                    <td>Effective: 6/17/10</td>
+                  </tr>
+                </table>
 
-        <table id="fuel_card_table">
-          <tr>
-            <td><b>Old Card</b></td>
-            <td><b>New Card</b></td>
-          </tr>
-          <tr>
-            <td><img src="images/old_card.jpg"></td>
-            <td><img src="images/new_card.jpg"></td>
-          </tr>
-          <tr>
-            <td><b>Expires: 6/17/10</b></td>
-            <td><b>Effective: 6/17/10</b></td>
-          </tr>
-        </table>
-        <br>
-				
-<b><u>Fuel ID Info</u></b>
-					<blockquote>
-					Fuel IDs will be the <b>Last Six Digits</b> of your Campus ID. If you need help identifying where your Campus ID is located on either your UCard or your Faculty/Staff card <a href="fuel_id.html">click here</a>.
-					</blockquote>
-					
-					<b><u>New Feature</b></u><br>
-					<blockquote>
-						The new Wright Express cards can also be used by approved fuelers to
-						purchase fuel off campus at most major gas stations.  These pumps will
-						require the same Fuel ID or "Driver ID" number and a correct odometer
-						reading.<br><br>
-						To locate a convenient gas station <a href="http://sitelocator.wexonline.com">click here</a>.<br><br>
-						Any Questions or Concerns? Contact Transportation Services at (413) 545-4682
-						</blockquote>
-						
-						<b><u>Directions</b></u><br>
-						<blockquote>
-		                The fuel pumps are located in the North West corner of the campus within the BUS GARAGE compound at 255 Holdsworth Way. <a href="directions.html">Click here for directions</a>.</blockquote>
-					<b><u>Monthly Billing</b></u><br>
-					<blockquote>
+                <h4 class="pageSubTitle">Fuel ID Info</h4>
+                <p>Fuel IDs will be the <strong>Last Six Digits</strong> of your Campus ID.
+                If you need help identifying where your Campus ID is located on either your
+                UCard or your Faculty/Staff card <a href="fuel_id.html">click here</a>.</p>
 
-					      Transportation Services will provide each department with a monthly notification of pending recharges for fuel and/or vehicle repairs. This notification can be sent by fax or email.  Each month department fleet managers will have a minimum of four business days to notify Transportation Services of any changes before recharges are processed. <br><br>
+                <h4 class="pageSubTitle">New Feature</h4>
+                <p>The new Wright Express cards can also be used by approved fuelers to
+                purchase fuel off campus at most major gas stations.  These pumps will
+                require the same Fuel ID or "Driver ID" number and a correct odometer
+                reading.</p>
 
-					      Recharges for fuel purchases will post to account (object) code 754400 and recharges for vehicle repairs will post to account (object) code 768900. </blockquote>
+                <p>To locate a convenient gas station <a href="http://sitelocator.wexonline.com">click here</a>.</p>
 
-					
+                <p>Any Questions or Concerns? Contact Transportation Services at (413) 545-4682</p>
+
+                <h4 class="pageSubTitle">Directions</h4>
+                <p>The fuel pumps are located in the North West corner of the campus within the
+                BUS GARAGE compound at 255 Holdsworth Way. <a href="directions.html">Click here for directions</a>.</p>
+
+                <h4 class="pageSubTitle">Monthly Billing</h4>
+                <p>Transportation Services will provide each department with a monthly notification
+                of pending recharges for fuel and/or vehicle repairs. This notification can be sent
+                by fax or email.  Each month department fleet managers will have a minimum of four
+                business days to notify Transportation Services of any changes before recharges are
+                processed.</p>
+
+                <p>Recharges for fuel purchases will post to account (object) code 754400 and
+                recharges for vehicle repairs will post to account (object) code 768900. </p>
               </div>
-            </td>   
+            </td>
           </tr>
         </tbody>
       </table>
@@ -154,16 +131,16 @@
           <tr>
             <td>
               <div id="footer">
-                <p><br>
-                  This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br>
-                  &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226; <a href="http://umass.edu/umhome/policies.html">Site Policies</a><br>
-                  <br>
-                  <img src="images/seal.jpg" id="seal" alt="Seal"></p>
+                <p>This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br/>
+                &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226;
+                <a href="http://umass.edu/umhome/policies.html">Site Policies</a></p>
+
+                <img src="images/seal.jpg" id="seal" alt="Seal"/>
               </div>
             </td>
           </tr>
-      </tbody>
-    </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>

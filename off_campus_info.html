@@ -1,132 +1,130 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
   <head>
     <title>Transportation Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link href="stylesheets/base.css" rel="stylesheet" type="text/css">
-
   </head>
-  
+
   <body>
-    <div id="container" >
-      <!-- Begin UMass Amherst top banner --> 
-      <div id="topbanner"> 
+    <div id="container">
+      <!-- Begin UMass Amherst top banner -->
+      <div id="topbanner">
         <a  href="http://umass.edu">
-          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst">
+          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst" />
         </a>
-          <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs" onsubmit="if (this.q.value=='Search UMass Amherst') return false;">
-            <div>
-              <label for="q">
-              <input name="q" id="q" size="22" value="Search UMass Amherst" onfocus="if (this.value=='Search UMass Amherst') this.value=''" onblur="if (this.value=='') this.value='Search UMass Amherst'" type="text">
-              </label>
-              <input input="submit" name="sa" value="Go" type="submit">
-              <input name="site" value="default_collection" type="hidden">
-              <input name="client" value="default_frontend" type="hidden">
-              <input name="proxystylesheet" value="default_frontend" type="hidden">
-              <input name="output" value="xml_no_dtd" type="hidden">
-            </div>
-          </form>
+        <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs">
+          <label for="q">
+            <input name="q" id="q" size="22" placeholder="Search UMass Amherst" type="text" />
+          </label>
+          <input input="submit" name="sa" value="Go" type="submit" />
+          <input name="site" value="default_collection" type="hidden" />
+          <input name="client" value="default_frontend" type="hidden" />
+          <input name="proxystylesheet" value="default_frontend" type="hidden" />
+          <input name="output" value="xml_no_dtd" type="hidden" />
+        </form>
       </div>
-      
+
       <div id="banner">
         <!--Banner image rendered through css-->
         <a id="banner_link" href="index.html"></a>
       </div>
-      
-      <div id="topmenu"> 
-		<a href="index.html">HOME</a>
-		<a href="ptab.html">PTAB</a>
-		<a href="about_us.html">ABOUT US</a>
-		<a href="contact_us.html">CONTACT US</a>
+
+      <div id="topmenu">
+        <a href="index.html">HOME</a>
+        <a href="ptab.html">PTAB</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="contact_us.html">CONTACT US</a>
       </div>
-      
+
       <table id="main_table">
         <tbody>
           <tr>
-             <td id="left">
-                <div class="left_menu_title">
-                  Departments
-                </div>
-                <div id="left_services">
-                  <a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a><br><br>
-                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br><br>
-                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br><br>
-					<a href="http://parking.umass.edu/index.php/home/">Parking Services</a><br><br>
-					<a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a><br><br>	
-                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br><br>
-                  <a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a><br>
-                </div>
-                
-                <div class="left_menu_title">
-                  State Vehicle Info Links<br>
-                </div>
-                
-                <div id="left_helpful_links"> 
-                  <a href="pdf/2009_letter.pdf">
-                    2009 Fleet Initiative Letter
-                  <a><br><br>
-                  <a href="acquiring.html">
-                    Acquiring or Disposing of State Vehicles
-                  </a><br><br>
-                  <a href="fueling.html">
-                    Fueling State Vehicles
-                  </a><br><br>
-                  <a href="repairs.html">
-                    Vehicles Repairs and Roadside Assistance </a> <br><br>         
-				<a href="accident.html">
-					Accident Procedure</a> <br><br>
-                  </a><br><br>
+            <td id="left">
+              <div class="left_menu_title">Departments</div>
+              <ul id="left_services" class="left_nav">
+                <li><a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a></li>
+                <li><a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a></li>
+                <li><a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a></li>
+                <li><a href="http://parking.umass.edu/index.php/home/">Parking Services</a></li>
+                <li><a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a></li>
+                <li><a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a></li>
+                <li><a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a></li>
+              </ul>
 
-                 
-                  </a><br><br>
-                </div>
-             </td>
-
+              <div class="left_menu_title">State Vehicle Info Links</div>
+              <ul class="left_nav" id="left_helpful_links">
+                <li><a href="pdf/2009_letter.pdf">2009 Fleet Initiative Letter</a></li>
+                <li><a href="acquiring.html">Acquiring or Disposing of State Vehicles</a></li>
+                <li><a href="fueling.html">Fueling State Vehicles</a></li>
+                <li><a href="repairs.html">Vehicles Repairs and Roadside Assistance </a></li>
+                <li><a href="accident.html">Accident Procedure</a></li>
+              </ul>
+            </td>
 
             <!-- InstanceBeginEditable name="Content" -->
             <td id="right">
-              <div id="page_title">OFF CAMPUS MAINTENANCE PROGRAM INFORMATION</div>
-              <div id="page_text_field"> 
-           
-			<blockquote>	UMass Amherst has entered into an agreement with Fleet Response to provide maintenance and repair services for UMass vehicles.  The purpose of this program is to provide a convenient and efficient method to service University vehicles.  Following the procedures outlined in this memo will help to insure that your vehicles provide safe and reliable transportation with a minimum amount of downtime.
-<br><br>
-				Vehicle packages include a schedule for routine preventive maintenance services. A service should be scheduled on or before the mileage indicated on the schedule. Services can be performed at Fleet Services/Physical Plant, at one of the <a href= "http://www.umass.edu/vehicle/repairs.html">approved Fleet Response vendors</a>, or at any of the following tire dealers and maintenance facilities:
-	<br><br>
-	
-	<ul>
-		<li>Michelin</li>
-		<li>Firestone</li>			
-		<li>GoodYear</li>
-		<li>Grease Monkey</li>
-		<li>Meineke</li>
-		<li>Sears</li>
-		<li>Aamco</li>
-		<li>Pep Boys</li>
-		<li>Valvoline</li>
-		<li>Midas</li>
-		<li>Jiffy Lube</li>
-	</ul>
-	<br>
-				Should the vehicle require a product or service not indicated on the preventative maintenance schedule that is expected to cost more than $100 (for example replacement tires, shock absorbers, brake service), the service facility must contact Fleet Response for approval and a verbal purchase order.  
-<br><br>
-				Fleet Response provides Roadside Assistance by calling 1-800-338-0619.   The operator will arrange for a tow or other needed assistance.  If the vehicle is towed, it will be brought to the nearest Fleet Response affiliated garage.
-<br><br>
-				The maintenance folder should be kept in the glove compartment and must remain with the vehicle. The maintenance folders are issued to specific vehicles; please verify that the information on the folder matches the vehicle.  Your department fleet manager should notify Fleet Response immediately if the maintenance folder is lost or stolen.
-<br><br>
-				All services performed are billed directly to Fleet Response. The driver should never be required to pay for service. The service facility will provide the driver a receipt showing all services that will be billed.
-<br><br>
-				We have adopted this program to help insure that regular maintenance is performed at the proper intervals and to support efficient operations with a minimum of downtime.  It is imperative that the vehicle be brought to an approved maintenance facility at the specified mileage intervals.
-<br><br>
-				If you have any questions or are in need of glass repairs or replacements, body and/or collision repairs contact Transportation Services at 545-4682 or Fleet Response at (9) 1-800-338-0619.
-				<br><br><br><br>
-				Diana Noble & Bill Watts<br>
-				Transportation Services</blocvkquote>
-				
+              <div id="page_title">Off Campus Maintenance Program Information</div>
+              <div id="page_text_field">
+                <p>UMass Amherst has entered into an agreement with Fleet Response to provide
+                maintenance and repair services for UMass vehicles.  The purpose of this program
+                is to provide a convenient and efficient method to service University vehicles.
+                Following the procedures outlined in this memo will help to insure that your
+                vehicles provide safe and reliable transportation with a minimum amount of downtime.</p>
+
+                <p>Vehicle packages include a schedule for routine preventive maintenance services.
+                A service should be scheduled on or before the mileage indicated on the schedule.
+                Services can be performed at Fleet Services/Physical Plant, at one of the
+                <a href= "http://www.umass.edu/vehicle/repairs.html">approved Fleet Response vendors</a>,
+                or at any of the following tire dealers and maintenance facilities:</p>
+
+                <ul>
+                  <li>Michelin</li>
+                  <li>Firestone</li>
+                  <li>GoodYear</li>
+                  <li>Grease Monkey</li>
+                  <li>Meineke</li>
+                  <li>Sears</li>
+                  <li>Aamco</li>
+                  <li>Pep Boys</li>
+                  <li>Valvoline</li>
+                  <li>Midas</li>
+                  <li>Jiffy Lube</li>
+                </ul>
+
+                <p>Should the vehicle require a product or service not indicated on the preventative
+                maintenance schedule that is expected to cost more than $100 (for example replacement
+                tires, shock absorbers, brake service), the service facility must contact Fleet
+                Response for approval and a verbal purchase order.</p>
+
+                <p>Fleet Response provides Roadside Assistance by calling 1-800-338-0619. The operator
+                will arrange for a tow or other needed assistance.  If the vehicle is towed, it will
+                be brought to the nearest Fleet Response affiliated garage.</p>
+
+                <p>The maintenance folder should be kept in the glove compartment and must remain
+                with the vehicle. The maintenance folders are issued to specific vehicles; please
+                verify that the information on the folder matches the vehicle.  Your department fleet
+                manager should notify Fleet Response immediately if the maintenance folder is lost or
+                stolen.</p>
+
+                <p>All services performed are billed directly to Fleet Response. The driver should
+                never be required to pay for service. The service facility will provide the driver a
+                receipt showing all services that will be billed.</p>
+
+                <p>We have adopted this program to help insure that regular maintenance is performed
+                at the proper intervals and to support efficient operations with a minimum of downtime.
+                It is imperative that the vehicle be brought to an approved maintenance facility at
+                the specified mileage intervals.</p>
+
+                <p>If you have any questions or are in need of glass repairs or replacements, body
+                and/or collision repairs contact Transportation Services at 545-4682 or Fleet Response
+                at 800-338-0619.</p>
+
+                <p>Diana Noble &amp; Bill Watts<br/>Transportation Services</p>
               </div>
-            </td>   
+            </td>
           </tr>
         </tbody>
       </table>
@@ -136,16 +134,16 @@
           <tr>
             <td>
               <div id="footer">
-                <p><br>
-                  This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br>
-                  &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226; <a href="http://umass.edu/umhome/policies.html">Site Policies</a><br>
-                  <br>
-                  <img src="images/seal.jpg" id="seal" alt="Seal"></p>
+                <p>This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br/>
+                &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226;
+                <a href="http://umass.edu/umhome/policies.html">Site Policies</a></p>
+
+                <img src="images/seal.jpg" id="seal" alt="Seal"/>
               </div>
             </td>
           </tr>
-      </tbody>
-    </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>

@@ -1,30 +1,18 @@
-#contacts{
-  width: 350px;
+.contacts{
+  width: 100%;
   font-size: 12px;
   border-collapse: collapse;
   border: none;
 }
-#container #main_table #right #page_text_field #contacts  tr{
-  border: none;
-}
-#container #main_table #right #page_text_field #contacts  td{
-  border: none;
-}
-#container #main_table #right #contacts .number{
-  width: 25px;
+
+.contacts tr td:first-child {
+  width: 280px;
 }
 
-
-#emails{
-  width: 350px;
-  font-size: 12px;
-  border-collapse: collapse;
+#container #main_table #right #page_text_field .contacts  tr{
   border: none;
 }
-#container #main_table #right #page_text_field #emails  tr{
-  border: none;
-}
-#container #main_table #right #page_text_field #emailss  td{
+#container #main_table #right #page_text_field .contacts  td{
   border: none;
 }
 #container #main_table #right #emails .link{

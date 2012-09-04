@@ -1,115 +1,103 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html>
   <head>
     <title>Transportation Services</title>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link href="stylesheets/base.css" rel="stylesheet" type="text/css">
-
   </head>
-  
+
   <body>
-    <div id="container" >
-      <!-- Begin UMass Amherst top banner --> 
-      <div id="topbanner"> 
+    <div id="container">
+      <!-- Begin UMass Amherst top banner -->
+      <div id="topbanner">
         <a  href="http://umass.edu">
-          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst">
+          <img id="banner_wordmark" src="images/informal_fff_on_000.gif" alt="UMass Amherst" />
         </a>
-          <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs" onsubmit="if (this.q.value=='Search UMass Amherst') return false;">
-            <div>
-              <label for="q">
-              <input name="q" id="q" size="22" value="Search UMass Amherst" onfocus="if (this.value=='Search UMass Amherst') this.value=''" onblur="if (this.value=='') this.value='Search UMass Amherst'" type="text">
-              </label>
-              <input input="submit" name="sa" value="Go" type="submit">
-              <input name="site" value="default_collection" type="hidden">
-              <input name="client" value="default_frontend" type="hidden">
-              <input name="proxystylesheet" value="default_frontend" type="hidden">
-              <input name="output" value="xml_no_dtd" type="hidden">
-            </div>
-          </form>
+        <form id="banner_search" action="http://googlebox.oit.umass.edu/search" method="get" name="gs">
+          <label for="q">
+            <input name="q" id="q" size="22" placeholder="Search UMass Amherst" type="text" />
+          </label>
+          <input input="submit" name="sa" value="Go" type="submit" />
+          <input name="site" value="default_collection" type="hidden" />
+          <input name="client" value="default_frontend" type="hidden" />
+          <input name="proxystylesheet" value="default_frontend" type="hidden" />
+          <input name="output" value="xml_no_dtd" type="hidden" />
+        </form>
       </div>
-      
+
       <div id="banner">
         <!--Banner image rendered through css-->
         <a id="banner_link" href="index.html"></a>
       </div>
-      
-      <div id="topmenu"> 
-		<a href="index.html">HOME</a>
-		<a href="ptab.html">PTAB</a>
-		<a href="about_us.html">ABOUT US</a>
-		<a href="contact_us.html">CONTACT US</a>
+
+      <div id="topmenu">
+        <a href="index.html">HOME</a>
+        <a href="ptab.html">PTAB</a>
+        <a href="about_us.html">ABOUT US</a>
+        <a href="contact_us.html">CONTACT US</a>
       </div>
-      
+
       <table id="main_table">
         <tbody>
           <tr>
-             <td id="left">
-                <div class="left_menu_title">
-                  Departments
-                </div>
-                <div id="left_services">
-                  <a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a><br><br>
-                  <a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a><br><br>
-                  <a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a><br><br>
-					<a href="http://parking.umass.edu/index.php/home/">Parking Services</a><br><br>
-					<a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a><br><br>	
-                  <a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a><br><br>
-                  <a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a><br>
-                </div>
-                
-                <div class="left_menu_title">
-                  State Vehicle Info Links<br>
-                </div>
-                
-                <div id="left_helpful_links"> 
-                  <a href="pdf/2009_letter.pdf">
-                    2009 Fleet Initiative Letter
-                  <a><br><br>
-                  <a href="acquiring.html">
-                    Acquiring or Disposing of State Vehicles
-                  </a><br><br>
-                  <a href="fueling.html">
-                    Fueling State Vehicles
-                  </a><br><br>
-                  <a href="repairs.html">
-                    Vehicles Repairs and Roadside Assistance </a> <br><br>         <a href="accident.html">Accident Procedure</a> <br><br>
-                  </a><br><br>
+            <td id="left">
+              <div class="left_menu_title">Departments</div>
+              <ul id="left_services" class="left_nav">
+                <li><a href="http://www.umass.edu/transit">UMass Transit Bus Operations</a></li>
+                <li><a href="http://www.umass.edu/transit/fieldtrip.html">Field Trip Services</a></li>
+                <li><a href="http://www.umass.edu/transit/meet_greet.html">Meet & Greet Car Service</a></li>
+                <li><a href="http://parking.umass.edu/index.php/home/">Parking Services</a></li>
+                <li><a href="http://transit-rtic.admin.umass.edu/">Regional Transportation Information Center</a></li>
+                <li><a href="http://www.umass.edu/transit/spectrans.html">SpecTrans Vans</a></li>
+                <li><a href="http://www.umass.edu/rentalcar">Vehicle Rental Service</a></li>
+              </ul>
 
-                 
-                  </a><br><br>
-                </div>
-             </td>
-
+              <div class="left_menu_title">State Vehicle Info Links</div>
+              <ul class="left_nav" id="left_helpful_links">
+                <li><a href="pdf/2009_letter.pdf">2009 Fleet Initiative Letter</a></li>
+                <li><a href="acquiring.html">Acquiring or Disposing of State Vehicles</a></li>
+                <li><a href="fueling.html">Fueling State Vehicles</a></li>
+                <li><a href="repairs.html">Vehicles Repairs and Roadside Assistance </a></li>
+                <li><a href="accident.html">Accident Procedure</a></li>
+              </ul>
+            </td>
 
             <!-- InstanceBeginEditable name="Content" -->
             <td id="right">
-              <div id="page_title">REPAIRING STATE VEHICLES</div>
-              <div id="page_text_field"> 
-          Each state vehicle should be equipped with a vehicle packet that includes information on when to get preventative maintenance and who to call if the vehicle breaks down and needs road side assistance. If a vehicle packet is misplaced, contact the department fleet manager or Transportation Services at (413)545-4682.<br><br>
+              <div id="page_title">Repairing State Vehicles</div>
+              <div id="page_text_field">
+                <p> Each state vehicle should be equipped with a vehicle packet that includes
+                information on when to get preventative maintenance and who to call if the
+                vehicle breaks down and needs road side assistance. If a vehicle packet is
+                misplaced, contact the department fleet manager or Transportation Services
+                at (413)545-4682.</p>
 
-				<b>Monthly Billing</b><br><br>
-			
+                <h3 class="pageSubTitle">Monthly Billing</h3>
+                <p>Transportation Services will provide each department with a monthly
+                notification of pending recharges for fuel and/or vehicle repairs. This
+                notification can be sent by fax or email.  Each month department fleet managers
+                will have a minimum of four business days to notify Transportation Services of
+                any changes before recharges are processed.</p>
 
-				      Transportation Services will provide each department with a monthly notification of pending recharges for fuel and/or vehicle repairs. This notification can be sent by fax or email.  Each month department fleet managers will have a minimum of four business days to notify Transportation Services of any changes before recharges are processed. <br><br>
+                <p>Recharges for fuel purchases will post to account (object) code 754400
+                and recharges for vehicle repairs will post to account (object) code 768900.</p>
 
-				      Recharges for fuel purchases will post to account (object) code 754400 and recharges for vehicle repairs will post to account (object) code 768900.
-<br><br>
-<H3><u>Authorized Service Centers</H3></u><br><br>
-<b>On-Campus</b><br><br>
-Physical Plant Work Control: (413)545-6401<br><br><br>
-<b>Off-Campus</b><br><br>
-<a href="off_campus_info.html">Off Campus Maintenance Program Information</a>
-<br><br>
-
-<a href="pdf/umass_vendors.pdf">Approved maintenance shops within 10 miles</a><br><br>
-<a href="pdf/independent_shoppes.pdf">All Massachusetts approved vendors</a><br><br>
-Bodywork and Collision repair: <br>
-Use Campus Contract CA11-PR-UMAPP10-136
+                <h3 class="pageSubTitle">Authorized Service Centers</h3>
+                <p><strong>On-Campus</strong></p>
+                <ul>
+                  <li>Physical Plant Work Control: (413)545-6401</li>
+                </ul>
+                <p><strong>Off-Campus</strong></p>
+                <ul>
+                  <li><a href="off_campus_info.html">Off Campus Maintenance Program Information</a></li>
+                  <li><a href="pdf/umass_vendors.pdf">Approved maintenance shops within 10 miles</a></li>
+                  <li><a href="pdf/independent_shoppes.pdf">All Massachusetts approved vendors</a></li>
+                </ul>
+                <p>Bodywork and Collision repair: Use Campus Contract CA11-PR-UMAPP10-136</p>
               </div>
-            </td>   
+            </td>
           </tr>
         </tbody>
       </table>
@@ -119,16 +107,16 @@ Use Campus Contract CA11-PR-UMAPP10-136
           <tr>
             <td>
               <div id="footer">
-                <p><br>
-                  This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br>
-                  &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226; <a href="http://umass.edu/umhome/policies.html">Site Policies</a><br>
-                  <br>
-                  <img src="images/seal.jpg" id="seal" alt="Seal"></p>
+                <p>This page is maintained by <a href="http://www.umass.edu/transit">Umass Transit Services</a>.<br/>
+                &copy; 2010 <a href="http://www.umass.edu/">University of Massachusetts Amherst</a> &#8226;
+                <a href="http://umass.edu/umhome/policies.html">Site Policies</a></p>
+
+                <img src="images/seal.jpg" id="seal" alt="Seal"/>
               </div>
             </td>
           </tr>
-      </tbody>
-    </table>
-  </div>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
