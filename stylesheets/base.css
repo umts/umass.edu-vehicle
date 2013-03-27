@@ -135,19 +135,6 @@ body
   color: #CCCCCC;
 }
 
-#container #main_table #left #left_news {
-  background-color: #CCCCCC;
-  color: black;
-}
-
-#container #main_table #left #left_news a {
-  text-decoration: none;
-}
-
-#container #main_table #left #left_news a:hover {
-  text-decoration: underline;
-}
-
 #container #main_table #left #left_helpful_links {
   background-color: #FFFFFF;
   color: black;
@@ -170,10 +157,6 @@ body
 
 #container #main_table #left .left_nav li{
   padding: 5px;
-}
-
-#container #main_table #left .fb_iframe_widget {
-  margin: 0 20px 20px;
 }
 
 #container #main_table #right #page_title {
