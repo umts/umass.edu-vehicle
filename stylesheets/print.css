@@ -1,0 +1,33 @@
+#topbanner, #topmenu, #main_table #left {
+  display: none;
+}
+
+#banner a:before {
+  content: url(../images/temp_banner.jpg);
+}
+
+#main_table #right {
+  width: 100%;
+  margin: 0;
+  float: none;
+  background: #FFF;
+  color: #000;
+}
+
+#page_title {
+  font-size: 18px;
+  text-decoration: underline;
+  padding: 0;
+  color: #000 !important;
+}
+
+a {
+  text-decoration: underline !important;
+  color: #222;
+}
+
+#main_table a:link:after,
+#main_table a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 85%;
+}
