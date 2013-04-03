@@ -1,0 +1,14 @@
+#container #main_table #right .fuel_card {
+  display: block;
+  margin: 0 auto;
+}
+
+#container #main_table #right #things_you_need {
+  background: #F3ECE0;
+  border: 1px dashed #900;
+  margin: 15px 0;
+}
+
+#container #main_table #right #things_you_need .pageSubTitle {
+  margin-left: 20px;
+}
