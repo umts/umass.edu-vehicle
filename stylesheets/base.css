@@ -29,7 +29,8 @@ body
 #container #topbanner #banner_wordmark{
   border: 1pt none ; 
   float: left; 
-  width: 146px;
+  width: 164px;
+  border: 0;
 }
 
 #container #topbanner #banner_search{
