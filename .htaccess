@@ -44,4 +44,10 @@ RewriteRule ^pdf/Vehicle_Acquisition_form.pdf$ http://umass.edu/transportation/a
 RewriteRule ^ptab.html$ http://umass.edu/transportation/parking-and-transportation-advisory-board [R=301,L]
 RewriteRule ^repairs.html$ http://umass.edu/transportation/repairing-state-vehicles [R=301,L]
 RewriteRule ^Template.html$ http://umass.edu/transportation/fleet-vehicles [R=301,L]
-RewriteRule ^$ http://umass.edu/transportation/fleet-vehicles [R=301,L]
+RewriteRule ^/?$ http://umass.edu/transportation/fleet-vehicles [R=301,L]
+
+# Not above and never was a real file.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^.*$ http://umass.edu/transportation/node/273 [R=404,L]
